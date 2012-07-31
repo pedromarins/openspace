@@ -5,18 +5,64 @@
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
 @import compass/reset
+@import compass/css3
+
+$blue: #162E48
 
 body
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 	
 section, header, footer
-	border-bottom: 1px solid #000
-	padding: 50px 0
+	border-bottom: 7px solid $blue
+	padding: 60px 0
 
 .centered
 	width: 980px
 	margin: 0 auto
 
 .registration
-	display: block
-	text-align: center
-	margin: 0 auto
+	background: #fff
+	display: inline-block
+	padding: 20px 50px
+
+.gray-background
+	background: url(../images/textura-cinza.jpg)
+
+.blue-background
+	background: $blue
+
+
+hgroup
+	h1, h2, h3
+		color: #fff
+		font-weight: bold
+	h1
+		font-size: 40px	
+	h2
+		font-size: 30px
+	h3
+		font-size: 20px
+
+h3
+	color: $blue
+	font-size: 24px
+	font-weight: bold
+	margin: 0 auto 30px
+	width: 980px
+
+p
+	line-height: 20px
+
+.talk
+	background: #fff
+	display: inline-block
+	padding: 30px
+	margin: 0 20px 20px 0
+	width: 405px
+	+box-shadow(0 0 10px #bbb)
+	h4
+		color: $blue
+		font-size: 20px
+		font-weight: bold
+		margin: 0 0 15px
+

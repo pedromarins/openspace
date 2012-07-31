@@ -67,21 +67,87 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 11, ../sass/screen.sass */
-section, header, footer {
-  border-bottom: 1px solid black;
-  padding: 50px 0;
+/* line 12, ../sass/screen.sass */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 15, ../sass/screen.sass */
+section, header, footer {
+  border-bottom: 7px solid #162e48;
+  padding: 60px 0;
+}
+
+/* line 19, ../sass/screen.sass */
 .centered {
   width: 980px;
   margin: 0 auto;
 }
 
-/* line 19, ../sass/screen.sass */
+/* line 23, ../sass/screen.sass */
 .registration {
-  display: block;
-  text-align: center;
-  margin: 0 auto;
+  background: white;
+  display: inline-block;
+  padding: 20px 50px;
+}
+
+/* line 28, ../sass/screen.sass */
+.gray-background {
+  background: url(../images/textura-cinza.jpg);
+}
+
+/* line 31, ../sass/screen.sass */
+.blue-background {
+  background: #162e48;
+}
+
+/* line 36, ../sass/screen.sass */
+hgroup h1, hgroup h2, hgroup h3 {
+  color: white;
+  font-weight: bold;
+}
+/* line 39, ../sass/screen.sass */
+hgroup h1 {
+  font-size: 40px;
+}
+/* line 41, ../sass/screen.sass */
+hgroup h2 {
+  font-size: 30px;
+}
+/* line 43, ../sass/screen.sass */
+hgroup h3 {
+  font-size: 20px;
+}
+
+/* line 46, ../sass/screen.sass */
+h3 {
+  color: #162e48;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto 30px;
+  width: 980px;
+}
+
+/* line 53, ../sass/screen.sass */
+p {
+  line-height: 20px;
+}
+
+/* line 56, ../sass/screen.sass */
+.talk {
+  background: white;
+  display: inline-block;
+  padding: 30px;
+  margin: 0 20px 20px 0;
+  width: 405px;
+  -webkit-box-shadow: 0 0 10px #bbbbbb;
+  -moz-box-shadow: 0 0 10px #bbbbbb;
+  box-shadow: 0 0 10px #bbbbbb;
+}
+/* line 63, ../sass/screen.sass */
+.talk h4 {
+  color: #162e48;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 15px;
 }
