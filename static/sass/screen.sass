@@ -12,7 +12,10 @@ $blue: #162E48
 body
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 	
-section, header, footer
+header
+	padding: 60px 0 40px
+
+section, footer
 	border-bottom: 7px solid $blue
 	padding: 60px 0
 
@@ -21,9 +24,15 @@ section, header, footer
 	margin: 0 auto
 
 .registration
-	background: #fff
+	background: #22b4ff
 	display: inline-block
-	padding: 20px 50px
+	padding: 20px 35px
+	+border-radius(15px)
+	+box-shadow(5px 5px 0 #000)
+	color: #fff
+	text-decoration: none
+	+text-shadow(-1px -1px 0 #000)
+	font-size: 25px
 
 .gray-background
 	background: url(../images/textura-cinza.jpg)
@@ -37,11 +46,25 @@ hgroup
 		color: #fff
 		font-weight: bold
 	h1
-		font-size: 40px	
+		background: url(../images/logo-openspace.png)
+		text-indent: -999px
+		height: 65px
+		width: 450px
+		margin: 0 0 50px
 	h2
-		font-size: 30px
+		font-size: 40px
+		float: right
+		+text-shadow(3px 3px 0 #000)
+		text-align: right
+		span
+			font-size: 22px
 	h3
+		color: #22b4ff
 		font-size: 20px
+		padding: 30px 0 0
+		+text-shadow(3px 3px 0 #000)
+	a
+		float: right
 
 h3
 	color: $blue
@@ -52,6 +75,18 @@ h3
 
 p
 	line-height: 20px
+
+.content
+	li
+		display: inline-block
+		text-align: center
+		margin: 30px 80px 0
+		p
+			color: $blue
+			font-size: 24px
+			font-weight: bold
+			margin: 20px 0 0
+
 
 .talk
 	background: #fff
