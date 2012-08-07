@@ -2,6 +2,7 @@
 @import compass/css3
 
 $blue: #162E48
+$light-blue: #22b4ff
 
 body
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
@@ -31,6 +32,10 @@ strong
 	+text-shadow(-1px -1px 0 #000)
 	font-size: 25px
 
+.center-btn
+	text-align: center
+	margin: 50px 0 0
+
 .gray-background
 	background: url(../images/textura-cinza.jpg)
 
@@ -56,7 +61,7 @@ hgroup
 		span
 			font-size: 22px
 	h3
-		color: #22b4ff
+		color: $light-blue
 		font-size: 20px
 		padding: 30px 0 0
 		+text-shadow(3px 3px 0 #000)
@@ -70,8 +75,8 @@ h3
 	margin: 0 auto 30px
 	width: 980px
 
-p
-	line-height: 20px
+.about
+	line-height: 25px
 
 .content
 	li
@@ -84,6 +89,9 @@ p
 			font-weight: bold
 			margin: 20px 0 0
 
+.talk-container
+
+	
 
 .talk
 	background: #fff
@@ -92,9 +100,46 @@ p
 	margin: 0 20px 20px 0
 	width: 405px
 	+box-shadow(0 0 10px #bbb)
+	vertical-align: top
 	h4
 		color: $blue
 		font-size: 20px
 		font-weight: bold
-		margin: 0 0 15px
+		margin: 0 0 30px
+	p
+		margin: 0 0 20px
+		text-align: justify
+		line-height: 20px
+	ul
+		float: left
+		display: inline-block
+		min-width: 49%
+		li
+			list-style: circle
+			margin: 0 0 10px 20px
+			line-height: 20px
 
+.number
+	display: inline-block
+	margin: 0 20px 15px 0
+	height: 50px
+	width: 50px
+	text-align: center
+	background: $blue
+	color: #fff
+	line-height: 50px
+	+border-radius(25px)
+	font-size: 20px
+	+box-shadow(3px 3px 0 $light-blue)
+	+text-shadow(3px 3px 0 #000)
+
+footer
+	a
+		color: $light-blue
+		+text-shadow(3px 3px 0 #000)
+		font-weight: bold
+		font-size: 25px
+	p
+		color: #fff
+		margin: 40px 0 0
+		+text-shadow(3px 3px 0 #000)
