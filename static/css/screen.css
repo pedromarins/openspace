@@ -249,14 +249,26 @@ h3 {
   text-shadow: 3px 3px 0 black;
 }
 
-/* line 137, ../sass/screen.sass */
+/* line 136, ../sass/screen.sass */
+.video {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* line 140, ../sass/screen.sass */
+#mc_embed_signup {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* line 145, ../sass/screen.sass */
 footer a {
   color: #22b4ff;
   text-shadow: 3px 3px 0 black;
   font-weight: bold;
   font-size: 25px;
 }
-/* line 142, ../sass/screen.sass */
+/* line 150, ../sass/screen.sass */
 footer p {
   color: white;
   margin: 40px 0 0;
