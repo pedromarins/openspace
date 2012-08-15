@@ -261,14 +261,25 @@ h3 {
   margin: 0 auto;
 }
 
-/* line 145, ../sass/screen.sass */
+/* line 144, ../sass/screen.sass */
+.social {
+  margin: 30px auto 0;
+  width: 460px;
+}
+/* line 147, ../sass/screen.sass */
+.social li {
+  float: left;
+  width: 150px;
+}
+
+/* line 152, ../sass/screen.sass */
 footer a {
   color: #22b4ff;
   text-shadow: 3px 3px 0 black;
   font-weight: bold;
   font-size: 25px;
 }
-/* line 150, ../sass/screen.sass */
+/* line 157, ../sass/screen.sass */
 footer p {
   color: white;
   margin: 40px 0 0;
